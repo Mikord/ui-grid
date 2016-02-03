@@ -333,10 +333,10 @@
        */
       runValidators: function(rowEntity, colDef, newValue, oldValue, grid) {
         
-        if (newValue === oldValue) {
+/*        if (newValue === oldValue) {
           // If the value has not changed we perform no validation
           return;
-        }
+        }*/
         
         if (typeof(colDef.name) === 'undefined' || !colDef.name) {
           throw new Error('colDef.name is required to perform validation');
